@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "next/block-next-meetup-map-block",
+	"version": "0.1.0",
+	"title": "Meetup Map Block",
+	"category": "embed",
+	"icon": "location-alt",
+	"description": "Embed the WordPress Meetup Map with configurable default region.",
+	"example": {
+		"attributes": {
+			"country": "JP",
+			"mapHeight": 500
+		}
+	},
+	"attributes": {
+		"country": {
+			"type": "string",
+			"default": "JP"
+		},
+		"mapHeight": {
+			"type": "number",
+			"default": 500
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"textdomain": "next-meetup-map-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
