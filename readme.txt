@@ -3,7 +3,7 @@
 Contributors:      NExT WordPress Meetup Map Block
 Tags:              block, meetup, map, wordpress-meetup, community
 Tested up to:      6.8
-Stable tag:        0.1.0
+Stable tag:        0.1.1
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Embed the WordPress Meetup Map into your posts and pages with region selection.
@@ -50,6 +50,9 @@ No. The map is loaded in an iframe, so it doesn't add any significant overhead t
 2. The map displayed on the front end focused on Asia.
 
 == Changelog ==
+
+= 0.1.1 =
+* Changed the map embed URL to wp-meetup-map.netlify.app because the previous developer.wordpress.org/meetup-map/ URL now returns 404.
 
 = 0.1.0 =
 * Initial release with region presets, custom coordinates, zoom level, and height controls.
