@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       NExT WordPress Meetup Map Block
  * Description:       Embed the WordPress Meetup Map with configurable default region, coordinates, and zoom level.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.1
  * Requires PHP:      7.0
  * Author:            WordPress Telex
